@@ -1,0 +1,23 @@
+h1{
+    font-size: 15x;
+}
+/* .text-primary { */
+    /* color: #ff0040 !important; */
+/* } */
+/*  */
+ /* a.text-primary:hover, a.text-primary:focus { */
+   /* color: #cf530a !important; */
+ /* } */
+/*    */
+
+.h1-class{
+    font-size: 30px;
+    color: #ff0040 ;
+}
+.h2-class{
+ font-size: 60px;
+ color: #cf530a 
+}
+body{
+
+}
