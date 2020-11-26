@@ -1,0 +1,22 @@
+#parent {
+    /* position: relative; */
+}
+.container {
+    /* position: relative; */
+}
+
+/* positionering */
+#child-1 {
+    /* position: static; */   /*standart*/
+    /* position: relative; */    /*  till utspunt plats */
+    /* position: absolute;    /*till högsta object- kan husteras */
+     /* position: fixed;  fastnad till en plats på screen */
+    position: sticky;   /*fastnad till sitt plats  oberoende from olika värde*/
+
+    /* top:    0px; */
+    /* left:   10%; */
+    right:  50px;
+    bottom: 100px;
+
+    /*z-index: 0;   /* -1 bakkom flodet*    0-standart  1-overflodet*/
+}
