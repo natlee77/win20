@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;}
+html, body {
+    margin: 0px;
+    padding: 0px;}
+.container {
+    display: flex;
+    height: 80vh;
+border: 5px solid rgb(221, 164, 59);}
+.content {
+    margin: auto;}

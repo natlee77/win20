@@ -172,9 +172,12 @@ a:hover{
     border-radius: 0.75rem;
     border: 1px solid transparent;
     font-size: 1rem;
-    padding: 0 3rem ;   
+    padding: 1rem 3rem ;  
+    transition-duration: 0.5s; 
 }
-
+#clinic .btn-hov:hover    {   
+    background-color:#2baaec ;   
+}
 #text h1{    
     font-size: 3rem;
     font-family: 'Roboto Slab', serif; 
@@ -290,7 +293,7 @@ a:hover{
                                 "b1 b2 "
                                 "b3 b4 "
                                 "b5 b6 ";    }}
-@media (min-width: 992px) { 
+@media (min-width: 972px) { 
     #services .container { 
         grid-template-columns:  1fr 1fr 1fr; 
         grid-template-areas:    "ti ti ti"
@@ -345,26 +348,24 @@ a:hover{
     font-size: 0.9rem;
     padding: 0.8rem 2rem ;  
     font-weight: bold; 
+    transition: all 0.5s ease-in-out; 
 }
- #fot .btn  :hover{   
-    color: #25e6c8;}
+#fot .btn-bl:hover {   
+    background-color: #25e6c8; 
+    border: 1px solid white;  
+    color: white;
+}
+
  /***** fotter ****/
 
 #fotter {   
-    background-color: #31a6e6;
+    background-color: #31a3e0;
     text-align: center;
-    padding: 0.2rem;
+    padding: 0.1rem;
     font-size: 0.6rem;
     color: #f7f7f7;   
 }
 @media (min-width :600px ){
-     #fotter {    
-    padding: 0.8rem;
-    font-size: 0.8rem;
-    
-}}
-   
-
-
-
-
+     #fotter {   
+    font-size: 0.8rem;  
+}} 

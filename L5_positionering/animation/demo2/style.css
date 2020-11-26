@@ -1,0 +1,19 @@
+.animate {
+    position: relative;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: blink 1s infinite;
+}
+
+#c1 { animation-delay: 0s; }
+#c2 { animation-delay: 0.4s; }
+#c3 { animation-delay: 0.8s; }
+#c4 { animation-delay: 1.2s; }
+#c5 { animation-delay: 1.6s; }
+#c6 { animation-delay: 2s; }
+#c7 { animation-delay: 2.4s; }
+#c8 { animation-delay: 2.5s; }
+#c9 { animation-delay: 2.9s; }
+#c10 { animation-delay: 3.3s; }
+#c11 { animation-delay: 3.7s; }
+#c12 { animation-delay: 4.1s; }
+     
