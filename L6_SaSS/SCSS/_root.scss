@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;    
+    //font-family: $font-primary; //from variable.scss
+    @include default-font;  //from mixin.scss
+    font-size: 900  ;  //skriva over standart som skapad i mixin
+
+    @include center-content(100px);
+    @include set-background(rgb(56, 6, 6));
+}
+

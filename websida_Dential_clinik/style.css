@@ -226,7 +226,7 @@ a:hover{
     justify-content: start;   
     gap: 1rem;
     grid-template-columns:  auto auto auto;    
-    grid-template-areas:    "tt tt tt"
+    grid-template-areas:    "tt tt tt"               /* fungera inte. why ????*/
                             "t1 t2 t3 " ;
 }
 #about-text {  grid-area: tt; 
