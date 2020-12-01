@@ -1,0 +1,20 @@
+//6
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    @include default-font;   //set i mixins.scss
+    margin: 0;
+}
+// kan försätta style alla object i samma style for hela sida: ex
+// div 
+//span
+//hr
+//table 
+                   
+
+
+
+//7 -i html skapade struktur -> borja  hustera  det->//8
+

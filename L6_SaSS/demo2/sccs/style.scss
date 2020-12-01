@@ -1,0 +1,12 @@
+//ground struktur
+@import "./variable";   //1 //3-breakkpoints //2- farg
+@import "./funktion";   //4
+@import "./mixins";      //5
+@import "./root";   //6  //sist
+//7 -i html skapade struktur -> borja  hustera  det
+@import "./utilites";   //8
+
+//html
+@import "./sections/navbartop";//1
+@import "./sections/navbar";//2
+@import "./sections/showcase";//3

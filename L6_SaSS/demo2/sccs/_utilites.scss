@@ -1,0 +1,43 @@
+//7 -i html skapade struktur -> borja  hustera  det
+//8 -designa
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+//mobile first- standart struktur
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+//mixin del- for desktop //
+    @include md {
+        max-width: $breakpoint-md-max-width;
+    }
+    @include lg {
+        max-width: $breakpoint-lg-max-width;
+    }
+    @include xl {
+        max-width: $breakpoint-xl-max-width;
+    }
+    @include xxl {
+        max-width: $breakpoint-xxl-max-width;
+    }
+}
+//?? nån fel 
+// @each $procent in $procentamount {
+    // .w-#{$procent} { width: #{$procent} ;}
+    // .h-#{$procent} { width: #{$procent};}
+// }

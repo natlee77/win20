@@ -1,0 +1,23 @@
+#showcase {
+    @include set-dynamic-colors($gray, 45%);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+//mobile
+    .bilden {
+        display: none;
+        //desktop
+        @include lg {
+            display: block;
+        }
+    }
+//mobile
+    .texten {
+        text-align: center;
+        width: 100%;
+//desktop
+        @include lg {
+            text-align: right;
+            
+        }
+    }
+}
