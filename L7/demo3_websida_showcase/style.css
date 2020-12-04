@@ -1,0 +1,14 @@
+/*mobile first*/
+
+.grid{ 
+    display: grid;  
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media(min-width: 768px){
+.grid{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 1rem;
+}}

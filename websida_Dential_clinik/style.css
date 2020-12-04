@@ -218,24 +218,25 @@ a:hover{
         object-fit: cover; 
     } 
 @media(min-width:768px){
-        #aboutus .logomen{display: contents;}  }  
+        #aboutus .logomen{display: contents;}  }   
 .grid-container  { 
     display: grid;    
     width:auto;        
     align-items: center;       
     justify-content: start;   
-    gap: 1rem;
+    gap: 1rem;   
     grid-template-columns:  auto auto auto;    
-    grid-template-areas:    "tt tt tt"               /* fungera inte. why ????*/
-                            "t1 t2 t3 " ;
+    grid-template-areas:    " tt tt tt "              
+                            " t1 t2 t3 " ;
 }
-#about-text {  grid-area: tt; 
-    /* grid-column-start: 1; */
-    /* grid-column-end: 4; */
+#about-text {    grid-area: tt;  }
+#box-1      {    grid-area: t1;  }
+#box-2      {    grid-area: t2;  }
+#box-3      {    grid-area: t3;  }
+.row {
+    display: inline-flex;    
+    gap: 1.5rem;      
   }
-#box-1 {    grid-area: t1;  }
-#box-2 {    grid-area: t2;  }
-#box-3 {    grid-area: t3;  }
 #aboutus img {
         margin-top: 1rem; 
         height:  auto; 
@@ -247,11 +248,13 @@ a:hover{
         font-size: 2.2rem;
         font-family: 'Roboto Slab', serif; 
         font-weight: lighter;  
-        border-bottom: 2px solid #25e6c8;      
+        border-bottom: 2px solid #25e6c8;  
+       
     }
 #reklama  .box h2{
         font-size: 2rem;    
-        color: #2baaec;    
+        color: #2baaec;  
+             
     }
 /******** services **********/
 

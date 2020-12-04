@@ -1,20 +1,25 @@
-/*@each $space in $spaceamounts {
+//$spaceamounts: (0,1,2,3,4,5);    //fluta till  variable.scss
 
-    .m-#{$space}  { margin: #{$space}rem; }
-    .ml-#{$space} { margin-left: #{$space}rem; }
-    .mr-#{$space} { margin-right: #{$space}rem; }
-    .mt-#{$space} { margin-top: #{$space}rem; }
-    .mb-#{$space} { margin-bottom: #{$space}rem; }
-    .my-#{$space} { margin: #{$space}rem 0; }
-    .mx-#{$space} { margin: 0 #{$space}rem; }
+@each $space in $spaceamounts {
 
-    .p-#{$space}  {  padding: #{$space}rem; }
-    .pl-#{$space} { padding-left: #{$space}rem; }
+         // autogenerera marginal i boodstrap
+       //  m-1,m-2,ml-1, ml-4,
+
+    .m-#{$space} { margin:        #{$space}rem; }
+    .ml-#{$space} { margin-left:   #{$space}rem; }  //left
+    .mr-#{$space} { margin-right:  #{$space}rem; }  //right
+    .mt-#{$space} { margin-top:    #{$space}rem; }    //top
+    .mb-#{$space} { margin-bottom: #{$space}rem; }   //bottom
+    .my-#{$space} { margin:        #{$space}rem 0; }      //y
+    .mx-#{$space} { margin:      0 #{$space}rem; }      //x- axel
+
+    //padding
+    .p-#{$space} {       padding: #{$space}rem; }
+    .pl-#{$space} { padding-left:  #{$space}rem; }
     .pr-#{$space} { padding-right: #{$space}rem; }
-    .pt-#{$space} { padding-top: #{$space}rem; }
+    .pt-#{$space} { padding-top:   #{$space}rem; }
     .pb-#{$space} { padding-bottom: #{$space}rem; }
-    .py-#{$space} { padding: #{$space}rem 0; }
-    .px-#{$space} { padding: 0 #{$space}rem; }
+    .py-#{$space} { padding:        #{$space}rem 0; }
+    .px-#{$space} { padding:      0 #{$space}rem; }
 
 }
-*/
